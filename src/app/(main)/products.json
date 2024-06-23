@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "teste",
+    "description": "teste",
+    "price": 1,
+    "available": true,
+    "createdAt": "2024-06-23T13:26:01.278Z"
+  },
+  {
+    "id": 2,
+    "name": "teste2",
+    "description": "teste2",
+    "price": 2,
+    "available": false,
+    "createdAt": "2024-06-23T13:26:12.734Z"
+  }
+]
