@@ -3,7 +3,6 @@ import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { registerProductSchema } from '../(main)/schema'
 import { zodResolver } from '@hookform/resolvers/zod'
-import { toast } from '@/components/ui/use-toast'
 import {
   Form,
   FormControl,
@@ -24,7 +23,7 @@ import {
 } from '@/components/ui/card'
 import { useRouter } from 'next/navigation'
 import { Switch } from '@/components/ui/switch'
-import { createProduct, getProducts } from '../(main)/actions'
+import { createProduct } from '../(main)/actions'
 
 export default function RegistrationForm() {
   const router = useRouter()
@@ -39,26 +38,21 @@ export default function RegistrationForm() {
   })
   const onSubmit = form.handleSubmit(
     async (data: z.infer<typeof registerProductSchema>) => {
-      console.log(registerProductSchema.parse(data))
       await createProduct(data)
       router.refresh()
-
-      toast({
-        title: 'Success',
-        description: 'Your profile has been updated successfully',
-      })
+      form.reset()
     },
   )
-  const getList = async () => {
-    console.log(await getProducts())
-  }
   return (
     <Form {...form}>
-      <form onSubmit={onSubmit} className="space-y-8 w-1/2 ">
+      <form onSubmit={onSubmit} className="w-96 space-y-8">
         <Card className="shadow-none">
           <CardHeader>
-            <CardTitle>Produto</CardTitle>
-            <CardDescription>Descrição header (?)</CardDescription>
+            <CardTitle>Cadastrar Produto</CardTitle>
+            <CardDescription>
+              Insira as informações do novo produto. Clique em adicionar ao
+              finalizar.
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <FormField
@@ -73,8 +67,7 @@ export default function RegistrationForm() {
                 </FormItem>
               )}
             />
-          </CardContent>
-          <CardContent>
+
             <FormField
               control={form.control}
               name="description"
@@ -90,8 +83,7 @@ export default function RegistrationForm() {
                 </FormItem>
               )}
             />
-          </CardContent>
-          <CardContent>
+
             <FormField
               control={form.control}
               name="price"
@@ -108,13 +100,12 @@ export default function RegistrationForm() {
                 </FormItem>
               )}
             />
-          </CardContent>
-          <CardContent>
+
             <FormField
               control={form.control}
               name="available"
               render={({ field }) => (
-                <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm">
+                <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm mt-6">
                   <FormLabel>Disponível para venda</FormLabel>
                   <FormControl>
                     <Switch
@@ -125,16 +116,15 @@ export default function RegistrationForm() {
                 </FormItem>
               )}
             />
+            <SheetFooter className="mt-6">
+              <Button disabled={form.formState.isLoading} type="submit">
+                {form.formState.isSubmitting
+                  ? 'Adicionando...'
+                  : 'Adicionar produto'}
+              </Button>
+            </SheetFooter>
           </CardContent>
         </Card>
-        <SheetFooter className="mt-auto">
-          <Button disabled={form.formState.isLoading} type="submit">
-            {form.formState.isSubmitting ? 'Salvando...' : 'Salvar produto'}
-          </Button>
-          <Button type="button" onClick={getList}>
-            Obter produtos
-          </Button>
-        </SheetFooter>
       </form>
     </Form>
   )
