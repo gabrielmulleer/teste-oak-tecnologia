@@ -25,6 +25,8 @@ import { useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { registerProductSchema } from '@/app/(main)/schema'
 import { createProduct } from '@/app/(main)/actions'
+import { Open_Sans } from 'next/font/google'
+const openSans = Open_Sans({ subsets: ['latin'], variable: '--font-sans' })
 
 export function ProductDialog() {
   const ref = useRef<HTMLDivElement>(null)
@@ -56,7 +58,7 @@ export function ProductDialog() {
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
           <DialogTitle>Cadastrar produto</DialogTitle>
-          <DialogDescription>
+          <DialogDescription className={openSans.className}>
             Insira as informações do novo produto. Clique em adicionar ao
             finalizar.
           </DialogDescription>
@@ -72,7 +74,7 @@ export function ProductDialog() {
                     <FormLabel className="text-right">Nome</FormLabel>
                     <FormControl>
                       <Input
-                        className="col-span-3"
+                        className={`col-span-3 ${openSans.className}`}
                         placeholder="Escreva seu nome"
                         {...field}
                       />
@@ -88,7 +90,7 @@ export function ProductDialog() {
                     <FormLabel className="text-right">Descrição</FormLabel>
                     <FormControl>
                       <Input
-                        className="col-span-3"
+                        className={`col-span-3 ${openSans.className}`}
                         placeholder="Escreva a descrição do produto"
                         {...field}
                       />
@@ -104,7 +106,7 @@ export function ProductDialog() {
                     <FormLabel className="text-right">Preço</FormLabel>
                     <FormControl>
                       <Input
-                        className="col-span-3"
+                        className={`col-span-3 ${openSans.className}`}
                         type="number"
                         placeholder="Escreva o preço do produto"
                         {...field}

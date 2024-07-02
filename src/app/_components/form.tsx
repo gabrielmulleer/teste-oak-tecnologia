@@ -24,6 +24,8 @@ import {
 import { useRouter } from 'next/navigation'
 import { Switch } from '@/components/ui/switch'
 import { createProduct } from '../(main)/actions'
+import { Open_Sans } from 'next/font/google'
+const openSans = Open_Sans({ subsets: ['latin'], variable: '--font-sans' })
 
 export default function RegistrationForm() {
   const router = useRouter()
@@ -49,7 +51,7 @@ export default function RegistrationForm() {
         <Card className="shadow-none">
           <CardHeader>
             <CardTitle>Cadastrar Produto</CardTitle>
-            <CardDescription>
+            <CardDescription className={openSans.className}>
               Insira as informações do novo produto. Clique em adicionar ao
               finalizar.
             </CardDescription>
@@ -62,7 +64,11 @@ export default function RegistrationForm() {
                 <FormItem>
                   <FormLabel>Nome</FormLabel>
                   <FormControl>
-                    <Input placeholder="Escreva seu nome" {...field} />
+                    <Input
+                      className={openSans.className}
+                      placeholder="Escreva seu nome"
+                      {...field}
+                    />
                   </FormControl>
                 </FormItem>
               )}
@@ -76,6 +82,7 @@ export default function RegistrationForm() {
                   <FormLabel>Descrição</FormLabel>
                   <FormControl>
                     <Input
+                      className={openSans.className}
                       placeholder="Escreva a descrição do produto"
                       {...field}
                     />
@@ -92,6 +99,7 @@ export default function RegistrationForm() {
                   <FormLabel>Preço</FormLabel>
                   <FormControl>
                     <Input
+                      className={openSans.className}
                       type="number"
                       placeholder="Escreva o preço do produto"
                       {...field}

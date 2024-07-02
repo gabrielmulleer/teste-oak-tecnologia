@@ -174,9 +174,14 @@ export function ProductsDataTable({ data }: ProductsDataTable) {
       columnVisibility,
       rowSelection,
     },
+    initialState: {
+      pagination: {
+        pageSize: 7,
+      },
+    },
   })
   return (
-    <div className="h-screen w-full px-8">
+    <div className="w-full px-8">
       <div className="flex items-center justify-between py-4">
         <Input
           placeholder="Filtrar produtos..."
