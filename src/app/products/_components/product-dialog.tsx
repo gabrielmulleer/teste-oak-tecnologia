@@ -25,8 +25,8 @@ import { useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { registerProductSchema } from '@/app/(main)/schema'
 import { createProduct } from '@/app/(main)/actions'
-import { Open_Sans } from 'next/font/google'
-const openSans = Open_Sans({ subsets: ['latin'], variable: '--font-sans' })
+import { Open_Sans as OpenSans } from 'next/font/google'
+const openSans = OpenSans({ subsets: ['latin'], variable: '--font-sans' })
 
 export function ProductDialog() {
   const ref = useRef<HTMLDivElement>(null)

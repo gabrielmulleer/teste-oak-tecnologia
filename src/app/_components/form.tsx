@@ -24,8 +24,8 @@ import {
 import { useRouter } from 'next/navigation'
 import { Switch } from '@/components/ui/switch'
 import { createProduct } from '../(main)/actions'
-import { Open_Sans } from 'next/font/google'
-const openSans = Open_Sans({ subsets: ['latin'], variable: '--font-sans' })
+import { Open_Sans as OpenSans } from 'next/font/google'
+const openSans = OpenSans({ subsets: ['latin'], variable: '--font-sans' })
 
 export default function RegistrationForm() {
   const router = useRouter()
@@ -47,7 +47,7 @@ export default function RegistrationForm() {
   )
   return (
     <Form {...form}>
-      <form onSubmit={onSubmit} className="w-96 space-y-8">
+      <form onSubmit={onSubmit} className="w-[40rem] space-y-8 mx-auto">
         <Card className="shadow-none">
           <CardHeader>
             <CardTitle>Cadastrar Produto</CardTitle>
@@ -66,7 +66,7 @@ export default function RegistrationForm() {
                   <FormControl>
                     <Input
                       className={openSans.className}
-                      placeholder="Escreva seu nome"
+                      placeholder="Escreva o nome do produto"
                       {...field}
                     />
                   </FormControl>

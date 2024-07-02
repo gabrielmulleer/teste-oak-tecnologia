@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
       const fileContents = await fs.readFile(filePath, 'utf8')
       products = JSON.parse(fileContents)
     } catch (error) {
-      if (error.code !== 'ENOENT') {
+      if ((error as NodeJS.ErrnoException).code !== 'ENOENT') {
         throw error
       }
 
@@ -46,7 +46,7 @@ export async function GET() {
     const products = JSON.parse(fileContents)
     return NextResponse.json(products, { status: 200 })
   } catch (error) {
-    if (error.code === 'ENOENT') {
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
       console.log('File does not exist, returning empty array')
       return NextResponse.json([], { status: 200 })
     }
