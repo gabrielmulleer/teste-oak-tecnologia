@@ -75,7 +75,7 @@ export function ProductDialog() {
                     <FormControl>
                       <Input
                         className={`col-span-3 ${openSans.className}`}
-                        placeholder="Escreva seu nome"
+                        placeholder="Escreva o nome do produto"
                         {...field}
                       />
                     </FormControl>

@@ -47,7 +47,7 @@ export default function RegistrationForm() {
   )
   return (
     <Form {...form}>
-      <form onSubmit={onSubmit} className="w-[40rem] space-y-8 mx-auto">
+      <form onSubmit={onSubmit} className=" w-[40rem] space-y-8 mx-auto">
         <Card className="shadow-none">
           <CardHeader>
             <CardTitle>Cadastrar Produto</CardTitle>

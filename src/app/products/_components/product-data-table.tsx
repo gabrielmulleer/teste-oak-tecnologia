@@ -181,7 +181,7 @@ export function ProductsDataTable({ data }: ProductsDataTable) {
     },
   })
   return (
-    <div className="w-full px-8">
+    <div className="self-start w-full px-8">
       <div className="flex items-center justify-between py-4">
         <Input
           placeholder="Filtrar produtos..."
