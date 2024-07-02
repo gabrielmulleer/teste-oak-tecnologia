@@ -26,6 +26,7 @@ import { useRouter } from 'next/navigation'
 import { registerProductSchema } from '@/app/(main)/schema'
 import { createProduct } from '@/app/(main)/actions'
 import { Open_Sans as OpenSans } from 'next/font/google'
+import { Textarea } from '@/components/ui/textarea'
 const openSans = OpenSans({ subsets: ['latin'], variable: '--font-sans' })
 
 export function ProductDialog() {
@@ -89,7 +90,7 @@ export function ProductDialog() {
                   <FormItem className="grid grid-cols-4 items-center gap-4">
                     <FormLabel className="text-right">Descrição</FormLabel>
                     <FormControl>
-                      <Input
+                      <Textarea
                         className={`col-span-3 ${openSans.className}`}
                         placeholder="Escreva a descrição do produto"
                         {...field}

@@ -1,66 +1,90 @@
 [
   {
     "id": 1,
-    "name": "teste",
-    "description": "teste",
-    "price": 1,
+    "name": "Processador AMD Ryzen 7 5700X3D, 3.6 GHz, (4.1GHz Max Turbo), Cachê 4MB, 8 Núcleos, 16 Threads, AM4 - 100-100001503WOF",
+    "description": "Processador AMD Ryzen 7 5700X3D\n \nArquitetura Zen 3 Refinada\nDesfrute de velocidades supersônicas com 8 núcleos e 16 threads de processamento, prontos para enfrentar os títulos mais desafiadores. Frequência base de 3,0GHz e boost dinâmico de até 4,1GHz para eliminar qualquer engasgo.\n\n\n\nEficiência Energética sem Abdicar da Potência\nJogue por horas sem se preocupar. O TDP de 105W garante alto desempenho sem consumo excessivo de energia.",
+    "price": 1345.99,
     "available": true,
-    "createdAt": "2024-06-23T13:26:01.278Z"
+    "createdAt": "2024-07-02T16:57:37.163Z"
   },
   {
     "id": 2,
-    "name": "teste2",
-    "description": "teste2",
-    "price": 2,
-    "available": false,
-    "createdAt": "2024-06-23T13:26:12.734Z"
+    "name": "Notebook Gamer Acer Nitro V15 Intel Core i5-13420H, 8GB RAM, GeForce RTX 3050, SSD 512GB, 15.6\" FHD IPS 144Hz, Windows 11, Preto - ANV15-51-58AZ",
+    "description": "Notebook Acer Nitro V15\n\nAção do Começo ao Fim\nO Nitro V15 conta com a placa de vídeo NVIDIA GeForce RTX 3050 com 6 GB de memória dedicada GDDR6 com eficiência total (TGP) de até 80W que oferece o melhor desempenho para você aproveitar ao máximo suas horas de jogatina.\n\nProcessador Que Faz Os Adversários Tremerem\nNada pode te parar com o Intel Core i5-13420H de 13ª geração deste notebook. Juntamente com 8 GB de memória RAM, expansível até 32 GB, o processador te leva aos níveis mais avançados de games e criação de conteúdo.\n\nVeloz e Furioso\nO nitro V15 entrega imagens vívidas e fluídas, que permitem uma jogabilidade mais rápida. Tudo isso, devido a sua tela de alta resolução e taxa de atualização.",
+    "price": 4499.99,
+    "available": true,
+    "createdAt": "2024-07-02T16:59:01.717Z"
   },
   {
     "id": 3,
-    "name": "teste3",
-    "description": "123",
-    "price": 1,
+    "name": "Placa de Vídeo RTX 4060 O8G V2 Gaming ATS ASUS NVIDIA GeForce, 8GB GDDR6, DLSS, Ray Tracing, G-Sync - 90YV0JM2-M0NA00",
+    "description": "Placa de Vídeo RTX 4060 O8G V2 Gaming ATS\n \nA placa de vídeo ASUS ATS GeForce RTX 4060 V2 OC Edition 8GB GDDR6 é uma placa de vídeo de alto desempenho projetada para entusiastas de jogos e profissionais que exigem o máximo em desempenho gráfico. Com base na arquitetura NVIDIA Ada Lovelace e equipada com 8 GB de memória GDDR6 de alta velocidade, a ASUS ATS GeForce RTX 4060 V2 OC Edition oferece desempenho inigualável e recursos inovadores para oferecer a melhor experiência de jogo possível.\n\nArquitetura NVIDIA Ada Lovelace\nA arquitetura NVIDIA Ada Lovelace oferece um salto significativo no desempenho e na eficiência em relação à geração anterior. Com novos núcleos RT de 3ª geração e núcleos Tensor de 4ª geração, a ASUS ATS GeForce RTX 4060 V2 OC Edition oferece rastreamento de raios em tempo real aprimorado e inteligência artificial para jogos incrivelmente realistas e fluidos.\n\nMemória GDDR6 de 8 GB\nA memória GDDR6 de 8 GB oferece largura de banda de memória de alta velocidade para lidar com os jogos e aplicativos mais exigentes.\n\nRolamentos Duplos\nOs rolamentos duplos nos ventiladores duram duas vezes mais que os rolamentos deslizantes tradicionais.",
+    "price": 1989.99,
     "available": false,
-    "createdAt": "2024-06-24T04:52:06.066Z"
+    "createdAt": "2024-07-02T17:00:07.013Z"
   },
   {
     "id": 4,
-    "name": "teste5",
-    "description": "teste5",
-    "price": 4,
+    "name": "Cadeira Gamer KBM! GAMING Tempest CG600, Cinza Claro, Com Almofadas, Descanso Para Pernas Retrátil, Reclinável - KGCG600CZ",
+    "description": "Cadeira Gamer KBM! GAMING Tempest  CG600\n\nConheça a cadeira KBM! GAMING Tempest CG600! Tenha horas incríveis desfrutando seu gameplay de maneira confortável e aconchegante! Feito com espuma de altíssima densidade e PU, a cadeira KBM! GAMING Tempest CG600 possui descanso para os pés, ideal para aquela pausa entre um jogo e outro! Além do design moderno e robusto, a cadeira proporciona ótima performance nas partidas devido a sensação de conforto que é convertida em foco e concentração, tudo que um gamer de verdade precisa para ser o melhor!\n\nMais Conforto: Reclinável até 180º e Descanso Para Pernas Retrátil\nConforto de um assento firme com um apoio para cabeça e almofada para as costas oferecem um conforto prolongado. Muitos benefícios, possibilitando as mais diversas posições para jogo, conforto e descanso. Reclinação em até 180º e apoios de braços que acompanham a reclinação da cadeira, possibilitando as mais diversas posições para jogo, conforto e descanso.\n\nDesign e Estrutura Ideal\nCom a KBM! GAMING Tempest CG600 sinta a liberdade de rodar por aí, com rodízios com perfil esportivo, em PP, que garantem fluidez de movimento. Aproveite ao máximo todos os momentos em sua cadeira KBM! GAMING Tempest CG600, com conforto, fluidez e design que realçam ainda mais seu setup gamer!",
+    "price": 719.9,
     "available": true,
-    "createdAt": "2024-06-24T04:52:13.722Z"
+    "createdAt": "2024-07-02T17:22:10.137Z"
   },
   {
     "id": 5,
-    "name": "teste44",
-    "description": "teste4",
-    "price": 2,
+    "name": "Monitor Gamer Curvo KBM! GAMING MG700 27\", 240hz, Full HD, 1ms, DisplayPort e HDMI, 96% SRGB, Adaptive Sync, Ajuste De Altura - KGMG70027PT",
+    "description": "Monitor Gamer KBM! GAMING MG700: Imersão e desempenho para seus jogos\n \nO Monitor Gamer KBM! GAMING MG700 é a escolha perfeita para quem busca imersão e desempenho nos jogos. Com tela curva de 27 polegadas, resolução Full HD e taxa de atualização de 240 Hz, o MG700 oferece uma experiência visual incrível.\n\nO tempo de resposta de 1 ms garante que você não perca nenhum detalhe da ação, mesmo nos jogos mais rápidos. Além disso, o recurso AdaptiveSync elimina o tearing e o stuttering, garantindo uma imagem suave e fluida. \n\nPara proteger a sua visão, o MG700 conta com redução de luz azul e Modo Game Plus, que reduzem o cansaço visual. O som integrado é de alta qualidade, mas você também pode conectar o seu headset através das portas plug and play.\n\nCom o Monitor Gamer KBM! GAMING MG700, você terá tudo o que precisa para jogar seus games favoritos com o máximo de desempenho e imersão.\n\nO Monitor Gamer KBM! GAMING MG700 é a escolha perfeita para quem busca um monitor gamer de alta qualidade. Com recursos avançados e uma excelente relação custo-benefício, o MG700 é a garantia de uma experiência de jogo inesquecível.",
+    "price": 1099.99,
     "available": false,
-    "createdAt": "2024-06-24T04:52:21.713Z"
+    "createdAt": "2024-07-02T17:22:55.015Z"
   },
   {
     "id": 6,
-    "name": "testet6",
-    "description": "testr",
-    "price": 1,
+    "name": "Robô Aspirador de Pó KaBuM! Smart 700, Preto, Mapeamento IR 360º, Controle via Aplicativo, Google Assistant e Alexa - KBSF003",
+    "description": "Robô Aspirador de Pó KaBuM! Smart 700, Mapeamento IR 360º, Controle via Aplicativo, Google Assistant e Alexa\nO Robô Aspirador de Pó IR 360º KaBuM! Smart 700 é uma revolução para o seu lar!\n\nNavegação a Laser 3D\nO Robô Aspirador de Pó KaBuM! Smart 700 possui um giroscópio de alta precisão que faz um mapeamento completo e preciso do ambiente para uma limpeza mais eficiente, e conta também com um sistema de navegação a Laser 3D fazendo com que nenhum espaço fique sem limpeza!\n\nAcionamento inteligente\nSeja capaz de acionar o seu Robô Aspirador pelo seu smartphone através do App KaBuM! Smart, ou também através de comandos de voz via Amazon Alexa e Google Assistant.\n\nBateria duradoura\nTenha autonomia de bateria suficiente para deixar toda a sua casa limpa! Graças a alta tecnologia e eficiência, o Robô Aspirador de Pó KaBuM! Smart 700 possui uma bateria que dura aproximadamente 140 minutos! E não se preocupe, caso a bateria estiver acabando, o Robô Aspirador de Pó ira voltar automaticamente para sua base de carregamento!\nE se a limpeza não estiver concluída, após o carregamento, o Robô Aspirador de Pó KaBuM! Smart 700 retorna de onde parou! \n\nInteligência como você nunca viu!\nO Robô Aspirador de Pó KaBuM! Smart 700 foi projetado para ultrapassar obstáculos de até 1,5cm, e também possui um sistema antiqueda, na qual evita que ele caia de escadarias, mesas, ou superfícies mais altas. Com isso, também possui um sistema anticolisão, no qual detecta barreiras durante o trajeto de limpeza e redireciona sua rota sempre que encontrar um grande obstáculo pela frente!\n\n5 Funções de Limpeza\nO Robô Aspirador de Pó KaBuM! Smart 700 possui 5 funções de limpeza: Limpeza em Zigue Zague, Limpeza de Cantos, Limpeza de ambientes dedicados, Limpeza de um Ponto Específico e Limpeza Umedecida (Com 3 níveis de água). Além de tudo isso, é adaptável a diferentes tipos de piso, como madeira, carpete e piso frio.\n\nMultiuso\nO Robô Aspirador de Pó KaBuM! Smart 700 além de aspirar o ambiente, também possui a função de passar pano umedecido\n\nMaior cuidado para sua família!\nO Robô Aspirador de Pó KaBuM! Smart 700 é equipado com Filtros de Alta Eficiência (HEPA), que é recomendado para alérgenos de mofo, poeira e ácaros. Além disso, é extremamente silencioso e causa pouquíssimos ruídos.\n\nApp KaBuM! Smart\nControle seu Robô Aspirador de Pó KaBuM! Smart 700 diretamente se seu Smartphone através do App KaBuM! Smart. Pelo app você pode visualizar os comodos mapeados de sua casa, níveis de bateria, alterar a potência de sucção, fazer agendamento de horários de funcionamento e diversas outras funções!\n\nAVISO IMPORTANTE:\n \nPara conectar o seu Robô Aspirador de Pó KaBuM! Smart 700 com o App Kabum Smart, certifique-se que seu smartphone esteja conectado em uma rede wi-fi de 2.4 GHz, pois só através dessa frequência é possível fazer o pareamento.",
+    "price": 1199.9,
     "available": true,
-    "createdAt": "2024-06-24T04:52:29.223Z"
+    "createdAt": "2024-07-02T17:23:54.130Z"
   },
   {
     "id": 7,
-    "name": "teste",
-    "description": "teste",
-    "price": 1,
-    "available": false,
-    "createdAt": "2024-06-24T04:52:36.575Z"
+    "name": "Gabinete Gamer Rise Mode Glass 06X, Mid Tower, Lateral em Vidro Fumê e Frontal em Vidro Temperado, Preto - RM-CA-06X-FB",
+    "description": "Gabinete Rise Mode Glass 06X Preto\n \n\nPara deixar seu Setup mais potente e cheio de estilo\nOs Gabinetes são a estrutura que une toda sua build, onde você vai querer algo que tenha flexibilidade para montagem da suas peças, garanta boa refrigeração dos componentes e que deixe tudo bonito. O Gabinete Rise Mode Glass 06X é a melhor escolha para tudo isso. Com acabamento externo em Vidro, dand um toque de estilo ao seu setup. Além de possuir espaço para 6 Fans (que não acompanham o gabinete).\n\n \n\nAcabamento em vidro temperado\nCom toda a sua parte interna na cor preta, o Gabinete Rise Mode Glass 06X Preto é a sua escolha perfeita para um setup organizado e muito cheio de estilo. O Gabinete Rise Mode é compatível com placas mãe padrão ATX / M-ATX / ITX, dando a você a possibilidade um PC Monstro. Comporta até 06 fans (não inclusas) para deixar o fluxo de ar perfeito dentro do gabinete e, com uma lateral de vidro cristalina, ainda permite que você admire o interior da sua obra. Simplesmente demais!",
+    "price": 159.9,
+    "available": true,
+    "createdAt": "2024-07-02T17:31:05.973Z"
   },
   {
     "id": 8,
-    "name": "teste",
-    "description": "34123",
-    "price": 1,
+    "name": " Headset Gamer Havit, Drivers 53mm, Microfone Plugável, P2, PC, PS4, XBOX ONE, Preto - HV-H2002D",
+    "description": "Headset Gamer Havit H2002D Aparência e textura proporcionais, simples e generosas. Jaqueta de liga leve com frente e superfície de plástico com revestimento de piano. Design Gamer em preto, para combinar com seu setup e além de ter qualidade surpreendente por um preço baixo. Head set Gamer Havit com excelente custo benefício. Desempenho e Compatibilidade com PC, PS4 e XBOX Faixa de cabeça ajustável suspensa única, design ergonômico, confortável de usar, antiviolência e não fácil de danificar. À prova de desgaste, resistente a arranhões e atualizado e adequado para pessoas diferentes, o peso de toda a máquina é moderado, desgastando por muito tempo sem pressão. Microfone plugável de 3,5 mm compatível para PC, PS4 e XBOX e Alto-falante magnético de 53 mm de alta qualidade de som para distinguir o som dos jogos e a frequência fracionária alta e baixa meticulosa ao ouvir música.",
+    "price": 159.99,
     "available": false,
-    "createdAt": "2024-06-24T04:55:18.998Z"
+    "createdAt": "2024-07-02T17:32:18.741Z"
+  },
+  {
+    "id": 9,
+    "name": "Placa de Video RTX 3060 Palit NVIDIA GeForce, 12GB GDDR6, RGB, DLSS, G-Sync, Ray Tracing - NE63060019K9-190AD",
+    "description": "Placa de Video RTX 3060\n\nA GeForce RTX 3060 permite que você jogue os jogos mais recentes usando o poder do Ampere – a arquitetura RTX de 2ª geração da NVIDIA. Obtenha um desempenho incrível com Ray Tracing Cores e Tensor Cores aprimorados, novos multiprocessadores de streaming e memória GDDR6 de alta velocidade.\n\nResfriamento\nPossui duas ventoinhas grandes de 90 mm para desempenho de resfriamento eficiente e grande área de corte na placa traseira para ventilação térmica otimizada.\n\nIluminação RGB Personalizável\nTambém é decorada na lateral da cobertura para que os jogadores possam desfrutar de efeitos de iluminação minimalistas.\n\nSeu Jogo em um Novo Nível\nFornecendo aceleração de IA nos principais aplicativos criativos. Apoiado pela plataforma NVIDIA Studio de drivers dedicados e ferramentas exclusivas. E construído para funcionar em tempo recorde. Esteja você renderizando cenas 3D complexas, editando vídeo 8K ou transmitindo ao vivo com a melhor codificação e qualidade de imagem, as GPUs GeForce RTX oferecem o desempenho para criar o seu melhor.",
+    "price": 1599.9,
+    "available": true,
+    "createdAt": "2024-07-02T17:33:55.164Z"
+  },
+  {
+    "id": 10,
+    "name": "Smartphone Xiaomi Redmi Note 13 Pro, 5G, 512GB, 12GB RAM, Tela De 6,67\", Preto",
+    "description": "O Smartphone Xiaomi Redmi Note 13 Pro 5G é o aparelho perfeito para quem busca um celular potente e com grande capacidade de armazenamento. Com 512GB de memória interna e 12GB de RAM, você poderá armazenar todos os seus arquivos e aplicativos sem se preocupar com espaço. Além disso, o processador Snapdragon garante um desempenho rápido e eficiente. A tela de 6,67 polegadas com resolução de 3840 pixels proporciona uma experiência visual incrível. O celular vem com bateria inclusa e tem garantia do fornecedor de 3 meses.",
+    "price": 2284.57,
+    "available": true,
+    "createdAt": "2024-07-02T17:35:10.766Z"
+  },
+  {
+    "id": 11,
+    "name": "TV Philco 32 Polegadas, LED, Recepção Digital, Bivolt, Preto - Ptv32a21dfh",
+    "description": "Assista a seus programas favoritos com toda a qualidade de som e imagem da tv philco 32” ptv32a21dfh led. O modelo vem com resolução hd de 1366 x 768 (pixels). Tenha imagens detalhadas, nítidas e claras. Você pode conectar seu dispositivo favorito na entrada hdmi e reproduzir com alta qualidade suas imagens. Além disso, possui a entrada usb multi media player para leitura/gravação de arquivos digitais, através do seu pen-drive ou hd externo. O equalizador de som permite melhorar a qualidade de áudio do seu televisor através de configurações pré-ajustadas, ou manualmente. Vem com a \"função futebol\": altera imagem e áudio, melhorando o contraste e voz para transmissões de jogos. Ainda possui as funções guide, info e closed caption. Com a guide é possível ver a programação na sua tela nos canais digitais. A info função disponibiliza informações sobre os programas assistidos * somente para canais digital. E a closed caption permite acompanhar o que está sendo assistido com legendas automáticas quando disponíbilizadas pelas emissoras. Vem também com equalizador de imagem que permite ajustar a cor do seu televisor.",
+    "price": 756,
+    "available": false,
+    "createdAt": "2024-07-02T17:35:46.481Z"
   }
 ]

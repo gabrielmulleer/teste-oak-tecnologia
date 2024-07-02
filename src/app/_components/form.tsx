@@ -25,6 +25,7 @@ import { useRouter } from 'next/navigation'
 import { Switch } from '@/components/ui/switch'
 import { createProduct } from '../(main)/actions'
 import { Open_Sans as OpenSans } from 'next/font/google'
+import { Textarea } from '@/components/ui/textarea'
 const openSans = OpenSans({ subsets: ['latin'], variable: '--font-sans' })
 
 export default function RegistrationForm() {
@@ -81,7 +82,7 @@ export default function RegistrationForm() {
                 <FormItem>
                   <FormLabel>Descrição</FormLabel>
                   <FormControl>
-                    <Input
+                    <Textarea
                       className={openSans.className}
                       placeholder="Escreva a descrição do produto"
                       {...field}
