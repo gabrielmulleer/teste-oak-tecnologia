@@ -1,11 +1,9 @@
 import type { Metadata } from 'next'
 import { Urbanist } from 'next/font/google'
-import { Open_Sans } from 'next/font/google'
 
 import './globals.css'
 
 const urbanist = Urbanist({ subsets: ['latin'], variable: '--font-sans' })
-const openSans = Open_Sans({ subsets: ['latin'], variable: '--font-sans' })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
