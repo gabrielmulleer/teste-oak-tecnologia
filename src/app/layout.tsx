@@ -32,7 +32,9 @@ export default function RootLayout({
               </Link>
             </div>
           </nav>
-          <main className="flex-1 p-8 bg-gray-100">{children}</main>
+          <main className="flex items-center justify-center flex-1 p-8 bg-gray-100">
+            {children}
+          </main>
           <footer className="bg-gray-800 text-white h-16 flex flex-col items-center justify-center py-4">
             <p>Copyright© 2024 | Gabriel Müller</p>
             <div className="flex flex-row items-center justify-center space-x-2">
